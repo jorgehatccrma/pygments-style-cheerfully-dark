@@ -32,4 +32,13 @@ Please read the [official documentation][pygments] for further information
 on the usage of pygment styles.
 
 
+For development
+===============
+
+To generate a CSS file, for example to use with `pelican-bootstrap3`, run
+
+    pygmentize -S cheerfully_dark -f html > cheerfully_dark.css
+
+
+
 [pygments]: http://pygments.org/docs/
