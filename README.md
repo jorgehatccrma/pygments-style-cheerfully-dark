@@ -18,14 +18,14 @@ Usage example:
 ==============
 
     >>> from pygments.formatters import HtmlFormatter
-    >>> HtmlFormatter(style='cheerfully-dark').style
-    <class 'pygments-style-cheerfully-dark:CheerfullyStyle'>
+    >>> HtmlFormatter(style='cheerfully_dark').style
+    <class 'pygments_style_cheerfully_dark:CheerfullyDarkStyle'>
 
 
 Export the style as CSS:
 ========================
 
-    pygmentize -S cheerfully-dark -f html > cheerfully-dark.css
+    pygmentize -S cheerfully_dark -f html > cheerfully-dark.css
 
 
 Please read the [official documentation][pygments] for further information

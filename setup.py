@@ -13,11 +13,11 @@ setup(
 
     url = 'https://github.com/jorgehatccrma/pygments-style-cheerfully-dark',
 
-    packages = ['pygments-style-cheerfully-dark'],
+    packages = ['pygments_style_cheerfully_dark'],
     install_requires = ['pygments >= 1.4'],
 
     entry_points = '''[pygments.styles]
-                      cheerfully-dark = pygments-style-cheerfully-dark:CheerfullyStyle''',
+                      cheerfully_dark = pygments_style_cheerfully_dark:CheerfullyDarkStyle''',
 
     classifiers = [
         'Development Status :: 4 - Beta',

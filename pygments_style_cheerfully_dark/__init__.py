@@ -31,29 +31,22 @@ class CheerfullyDarkStyle(Style):
 
         Error:                  '#D2A8A1',
 
-        Keyword:                '#86bb1b',
-        Keyword.Reserved:       '#86bb1b',
-        Keyword.Type:           '#C5AF75',
+        Keyword:                '#2EC310',
+        Keyword.Namespace:      '#86bb1b',
 
-        Name:                   '#FB503F',
-        Name.Attribute:         '#AC885B',
-        Name.Builtin:           '#2EC310',
-        Name.Builtin.Pseudo:    '#2EC310',
-        Name.Class:             '#5597D6',
+        Name:                   '#E8E8E8',
+        Name.Builtin:           '#FEFA35',
+        Name.Builtin.Pseudo:    '#5597D6',
+        Name.Class:             '#FB503F',
         Name.Constant:          '#5463FB',
-        Name.Decorator:         '#EE9630',
         Name.Function:          '#FB503F',
-        Name.Tag:               '#86BB1B',
 
         Number:                 '#5463FB',
 
-        Operator:               '#86BB1B',
-        Operator.Word:          '#86BB1B',
-
-        Punctuation:            '#E8E8E8',
+        Operator:               '#86bb1b',
 
         String:                 '#EE9630',
-        String.Escape:          '#EE9630',
 
         Text:                   '#E8E8E8',
+
     }
